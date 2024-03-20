@@ -6,7 +6,7 @@ const NavBar = () => {
 
     return (
     <nav className='flex justify-between w-fill'>
-        <ul className='flex items-center'>
+        <ul className='flex items-center gap'>
             <li className='font-semibold'>
                 <NavLink to = '/'>
                     My Page

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Slider from 'react-slick';
 
 import "slick-carousel/slick/slick.css";
@@ -36,9 +36,9 @@ const RecipeCarousel = () => {
   )
 };
 const recipes = [
-  { title: 'Receta 1', image: 'src/img/pasteles.jpg' },
-  { title: 'Receta 2', image: 'src/img/verduras.jpg' },
-  { title: 'Receta 3', image: 'src/img/pasteles.jpg' }
+  { title: 'Receta 1', image: 'src/img/1.jpeg' },
+  { title: 'Receta 2', image: 'src/img/2.jpg' },
+  { title: 'Receta 3', image: 'src/img/3.jpg' }
   // Agrega más recetas según sea necesario
 ];
 
